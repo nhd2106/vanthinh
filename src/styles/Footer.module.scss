@@ -4,12 +4,12 @@
     padding: 10px;
     .contactHeading1 {
         color: #EC8C58;
-        font: 600 46px/52px 'Teko', sans-serif;
+        font: 600 30px/52px 'Teko', sans-serif;
       
     }
     .contactHeading2{
         color: #EC8C58;
-        font: 600 30px/30px 'Teko', sans-serif;
+        font: 600 30px/52px 'Teko', sans-serif;
     }
     button{
         min-height: 50px;
@@ -29,11 +29,10 @@
         padding-inline-start: 0;
         list-style: none;
         
+        
     }
-    ul>li{
-        list-style: none;
+    .ul1 >li{
         display: inline;
-      
         margin: 10px 30px 0px 0px;
         
        
@@ -47,4 +46,26 @@
             color: white;
         }
     }
+    .ul2 > li{
+                    line-height: 30px;
+            a{
+                text-decoration: none;
+                color: #fff;
+                
+            }
+            span{
+                display: table-cell;
+               
+            }
+    }
+ 
+    .icon{
+        padding-right: 10px;
+        display: table-cell;
+        font-size: 20px;
+    vertical-align: top;
+    position: relative;
+    top: 5px;
+    }
+
 }
