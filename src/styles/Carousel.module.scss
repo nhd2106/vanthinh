@@ -1,0 +1,37 @@
+.carousel{
+    background-image: url("../Assets/img/the-fishermen-3039589_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    
+}
+.carouselContent{
+    padding-top: 80px;
+    font-weight: 900;
+    color: whitesmoke;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    line-height: 30px;
+ 
+    p {
+        font-size: 20px;
+    }
+
+    button{
+        padding: 10px;
+        background: #A27FD3;
+        border: none;
+        border-radius: 4%;
+        font-weight: bolder;
+        color: white;
+        &:hover{
+            background-color: #F5F5F5;
+            color: #A27FD3;
+        }
+    }
+}
+
+

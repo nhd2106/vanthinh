@@ -1,0 +1,50 @@
+.footer{
+    background-color: #2D4268;
+    color: white;
+    padding: 10px;
+    .contactHeading1 {
+        color: #EC8C58;
+        font: 600 46px/52px 'Teko', sans-serif;
+      
+    }
+    .contactHeading2{
+        color: #EC8C58;
+        font: 600 30px/30px 'Teko', sans-serif;
+    }
+    button{
+        min-height: 50px;
+        min-width: 70px;
+        background-color: #EC8C58;
+        border: none;
+        color: white;
+    }
+    .socialIcon{
+        margin-top: 10px;
+    }
+    input{
+        min-width: 200px;
+        min-height: 50px;
+    }
+    ul{
+        padding-inline-start: 0;
+        list-style: none;
+        
+    }
+    ul>li{
+        list-style: none;
+        display: inline;
+      
+        margin: 10px 30px 0px 0px;
+        
+       
+        img{
+            width: 50px;
+            margin-top: 20px;
+        }
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
