@@ -7,7 +7,7 @@ const Products = () => {
       <div id="cá biển nhập khẩu">
       <h2 id="hometitle" className={ProductsStyle.homeTitle}>
         Cá Biển Khơi Xa (Cá Rạng)
-      </h2>
+      </h2> 
       <div id="product" className={ProductsStyle.container}>
          
 
@@ -74,7 +74,7 @@ const Products = () => {
       
       </div>
 
-      <div id="Không Phải Cá">
+      <div id="Không Phải Cá" className="mt-2">
       <h2 id="hometitle" className={ProductsStyle.homeTitle}>
         Không Phải Là Cá
       </h2>
@@ -143,9 +143,9 @@ const Products = () => {
       </div>
       
       </div>
-      <div id="Cá Tiện Lợi">
+      <div id="Cá Tiện Lợi" className="mt-2">
       <h2 id="hometitle" className={ProductsStyle.homeTitle}>
-        Cá Tiện Lợi (Cá Biển Tẩm Bột)
+        Cá Biển Tẩm Bột
       </h2>
       <div id="product" className={ProductsStyle.container}>
          
